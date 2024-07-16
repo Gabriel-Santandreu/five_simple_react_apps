@@ -2,6 +2,7 @@ import Counter from './Counter.jsx';
 import ColorPicker from './ColorPicker.jsx';
 import ToDoList from './ToDoList.jsx';
 import DigitalClock from './DigitalClock.jsx';
+import Stopwatch from './Stopwatch.jsx';
 
 function App() {
 
@@ -17,6 +18,9 @@ function App() {
             <br /><br />
             <hr /> 
             <DigitalClock></DigitalClock>
+            <br /><br />
+            <hr /> 
+            <Stopwatch></Stopwatch>
         </>
     );
 }
